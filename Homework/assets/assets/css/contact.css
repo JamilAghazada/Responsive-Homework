@@ -1,0 +1,93 @@
+.jstyle{
+    background-color: #4aaaa5;
+    height: 80px;
+    color: #fff !important;
+    text-align: center;
+    padding-top: 20px;
+}
+.navbar{
+    padding: 0px !important;
+    
+}
+.sectiondiv{
+    height: 150px;
+    background-color: #fff !important;
+    float: right !important;
+    width: 100%;
+}
+.side{
+    margin-left: 30px;
+    width: 200px;
+    margin-top: 30px;
+   
+}
+.links{
+    width: 50px;height: 50px;
+   
+}
+.mains{
+    margin-left: 15px;
+}
+textarea {
+    height: 200px;
+    resize: none;
+    display: block;
+    width: 100%;
+  }
+input{
+    width: 100% ;
+}
+section >div >h1{
+    color: #4aaaa5;
+    font-size: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-top: 15px;
+}
+input{
+    border: 1px #dddddd solid;
+    height: 30px;
+}
+#emailabel{
+    margin-top: 10px;
+}
+main >div{
+    margin-top: 30px;
+    background-color: #fff;
+    height: 600px;
+}
+body{
+    background-color: #dddddd;
+}
+button{
+    background-color: #4aaaa5;
+    color: #fff;
+    border: none;
+    height: 30px;
+    width: 80px;
+
+}
+footer{
+    background-color: #666666;
+  
+    height: 60px;
+   width: 100%;
+  
+  }
+  footer > h5{
+    text-align: center;
+    color: #dddddd;
+    padding-top: 20px;
+    font-size: 14px;
+  }
+  @media screen and (max-width:586px) {
+      .side{
+          margin-left:  0px;
+          margin-bottom: 10px;
+      }
+      main{
+          margin-left: auto !important;
+          margin-right: auto !important;
+      }
+  }
+  

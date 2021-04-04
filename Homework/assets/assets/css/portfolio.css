@@ -1,0 +1,136 @@
+.jstyle{
+    background-color: #4aaaa5;
+    height: 80px;
+    color: #fff !important;
+    text-align: center;
+    padding-top: 20px;
+}
+.navbar{
+    padding: 0px !important;
+    
+}
+main >div{
+    margin-top: 30px;
+    background-color: #fff;
+    height: 800px;
+}
+body{
+    background-color: #dddddd;
+    background-size: 100vh;
+}
+
+  @media screen and (max-width:586px) {
+    .side{
+        margin-left:  0px;
+        margin-bottom: 10px;
+    }
+    main{
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+}
+section >div >h1{
+    color: #4aaaa5;
+    font-size: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-top: 15px;
+}
+.side{
+    margin-left: 30px;
+    width: 200px;
+    margin-top: 30px;
+   
+}
+.links{
+    width: 50px;height: 50px;
+   
+}
+.mains{
+    margin-left: 15px;
+}
+
+.sectiondiv{
+    height: 150px;
+    background-color: #fff !important;
+    float: right !important;
+    width: 100%;
+}
+
+.portfolioo{
+    padding: 0px !important;
+    
+}
+.pimages{
+    padding: 0px;
+    margin: 0px;
+}
+.imgs1,.imgs2,.imgs3,.imgs4,.imgs5{
+   
+    height: 190px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+}
+.imgs1 > h3 ,.imgs2> h3,.imgs3 >h3,.imgs4 > h3 ,.imgs5 > h3{
+    font-family: Georgia, 'Times New Roman', Times, serif !important;
+    font-size: 18px;
+    color: #fff;
+    background-color: #4aaaa5;
+    background-size: 252px !important;
+    text-align: center;
+    margin-top: 130px;
+    height: 40px;
+    padding-top:10px ;
+}
+
+.imgs1{
+    background-image: url("../images/technics-q-c-640-480-1.jpg") ;
+}
+.imgs2{
+    background-image: url("../images/technics-q-c-640-480-2.jpg") ;
+   
+}
+.imgs3{
+    background-image: url("../images/technics-q-c-640-480-5.jpg") ;
+}
+.imgs4{
+    background-image: url("../images/technics-q-c-640-480-7.jpg") ;
+   
+}
+.imgs5{
+    background-image: url("../images/technics-q-c-640-480-9.jpg") ;
+   
+}
+
+@media screen and (max-width:1240px) {
+    main > div{
+        height: 1300px;
+    }
+    
+}
+
+@media screen and (max-width:576px) {
+    .imgs1 > h3 ,.imgs2> h3,.imgs3 >h3,.imgs4 > h3 ,.imgs5 > h3{
+        width: 252px !important;
+    }
+    
+}
+@media screen and (min-width:576px) and (max-width:800px) {
+    .imgs1 > h3 ,.imgs2> h3,.imgs3 >h3,.imgs4 > h3 ,.imgs5 > h3{
+        width: 252px !important;
+    }
+    
+}
+@media screen and (min-width:768px) and (max-width:800px) {
+    .imgs1 > h3 ,.imgs2> h3,.imgs3 >h3,.imgs4 > h3 ,.imgs5 > h3{
+        width: 155px !important;
+    }
+    
+}
+@media screen and (min-width:768px) and (max-width:890px) {
+    .imgs1 > h3 ,.imgs2> h3,.imgs3 >h3,.imgs4 > h3 ,.imgs5 > h3{
+        margin-top: 82px !important;
+    }
+    
+}

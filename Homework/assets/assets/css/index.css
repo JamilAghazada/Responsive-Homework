@@ -1,0 +1,189 @@
+header{
+  
+    height: 80px;
+}
+header > nav >a {
+    background-color: #4aaaa5;
+    text-align: center;
+    height: 80px;
+    padding-top: 25px!important;
+    color: white !important;
+
+
+   
+   
+}
+ nav{
+     
+padding: 0px  !important;    
+
+}
+body{
+    background-color: #dddddd;
+   
+}
+.nav-link{
+   
+    color: #dddddd;
+}
+main{
+    margin-top: 30px;
+  
+}
+main > div {
+    background-color: white;
+    height: 400px;
+    
+}
+.harder{
+    height: 150px;
+    margin-left: 50px;
+    padding: 0px;
+}
+
+footer{
+    background-color: #666666;
+    height: 77px;
+}
+footer > div{
+    background-color: #666666;
+ 
+}
+.blue{
+  margin-top: 30px;
+    height: 10px;
+    background-color: #4aaaa5;
+}
+.imgs{
+    
+text-align: center;    height: 60px;margin: 0px;padding: 0px;
+
+}
+.imgsdiv{
+    align-items: center;
+    margin: 0px;padding: 0px;
+}
+.mainimgs{
+    margin-left:2px;
+    height: 45px;
+}
+@media screen and (max-width: 768px) {
+    footer {
+        display: none;
+    }
+    .footertop{
+        display: none;
+    }
+
+ }
+ @media screen and (max-width:576px) {
+     .mainimgs{
+         margin-bottom:15px;
+      
+     }
+     
+ }
+ @media screen and (max-width:576px) {
+    main > div{
+        height:700px;
+      
+    }
+    
+}
+@media screen and (max-width:576px) and (min-width:530px) {
+    main > div {
+        height: 750px !important;
+    }
+    
+}
+
+
+@media screen and (max-width:400px){    
+.xdiv{
+    margin-top: 80px !important;
+}
+}
+/* for extra small screens*/
+@media screen and (max-width:575px) {
+    .imgsdiv,.harder,.harder > p{
+        display: none;
+    }   
+    .links{
+        height: 30px;
+        margin: 0px;
+        padding: 0px;
+    }
+    .linkss{
+        margin-left: 150px;
+    }
+    .about{
+        text-align: center;
+    }
+    .jstyle{
+        margin-left: 32px;
+    }
+  
+    
+    .pdiv{
+        margin-top: 20px;
+    }
+    .forphone{
+        background-color: rgb(255, 255, 255);
+        color: #666666 !important;
+       margin-right: 30px !important;
+        
+    }
+   .ul-il{
+     
+       display: none !important;
+   }
+   .nullm,.nullm{
+       display: flex !important;
+   }
+}
+
+
+
+
+/*for small screens*/
+@media screen and (min-width:576px) and (max-width:767px) {
+    
+    .xdiv{
+        margin-top: 50px !important;
+    }
+.harder{
+    height: 180px !important;
+    
+}
+.forphone{
+    background-color: rgb(255, 255, 255);
+    color: #666666 !important;
+   margin-left: 0px !important;
+   display: inline;
+    
+}
+.forrphone{
+    margin-right: 50px !important;
+}
+.links,.linkss,.ul-il{
+    display: none;
+}
+main > div{
+height: 700px;
+}
+
+.forrphone{
+    margin-right: 280px !important;
+}
+}
+/*for medium screens*/
+@media screen and (min-width:765px) {
+.links{
+    display:none
+}
+.tiger{
+    height: 200px;
+}
+
+
+}
